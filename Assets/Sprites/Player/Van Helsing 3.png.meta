@@ -1,0 +1,2564 @@
+fileFormatVersion: 2
+guid: 923ae8606c40dbb44a093d5e0b8ca007
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Van Helsing 3_0
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 8543
+        width: 593
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e143866549ba2f49b1554c099c5e673
+      internalID: 1363572941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_1
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 8664
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f680d5527b71244b20e5af4877e876
+      internalID: 493202050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_2
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 8571
+        width: 593
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deab495f3db9b34c9bb482e474f4f19
+      internalID: -408812323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_3
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 8664
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2d2fc7d7458c048a2d7b2c527f46aa
+      internalID: 11925754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_4
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 8571
+        width: 594
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b326b2f50848e7468879d43f62c872d
+      internalID: 254661313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 8650
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4144cc09854be84699ede39ecfc9cb0
+      internalID: 1882834352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_6
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 7262
+        width: 365
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789011abb1f61f64f98e1e1b2280cb45
+      internalID: -1913019919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_7
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 8188
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c7192a7ea5be74daa1916f31623c64
+      internalID: -1078479277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_8
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 8150
+        width: 276
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c846c5c9c6696d94b82bd807dc666e98
+      internalID: 1934870450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_9
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 8178
+        width: 136
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081df41cf4d91f449a588dbc48a2ca08
+      internalID: 174844710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_10
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 8164
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e006ac1f395880e4886869803fc01f40
+      internalID: -239107930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_11
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 8169
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e3f78d2564cea44bff8051c26d5603
+      internalID: 443444486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 7099
+        width: 477
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1a16de59f17c94f8a41477f5603be8
+      internalID: -849264693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_13
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 7192
+        width: 425
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41266e3a7f6d28d40a25959107670e26
+      internalID: 1703099387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_14
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 7103
+        width: 444
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27ad107ea4812540b1f5b2f2d615a27
+      internalID: -1869076518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_15
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 6945
+        width: 420
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ae2881789d4e4483ed2867a5431c1
+      internalID: -1793426297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_16
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 7753
+        width: 351
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e120ac291b17434b96d6970843150ea
+      internalID: -2009704360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_17
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 7744
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a165e5829ff44df42a13ee86da268083
+      internalID: -499646716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 7529
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa63d5dcfdcdc14c8ad0c8b80f342e7
+      internalID: 1051201084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_19
+      rect:
+        serializedVersion: 2
+        x: 3781
+        y: 7370
+        width: 122
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5824c17f6c4e6e24f88ba0e4131e592d
+      internalID: -1838565131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_20
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 7248
+        width: 392
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fea6e4a1de226e4e86730cecf6adb3d
+      internalID: -200983626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_21
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 7445
+        width: 168
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bf85c0b88533243baa4760d83a6755
+      internalID: -2112638720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_22
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 7477
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0470403a32fb84a83967211799108c
+      internalID: 189156119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_23
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 7426
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dff51559dd6194fa586b29af972df1
+      internalID: 1938009533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_24
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 7300
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18a37d2189a17469cfc85a6b0e083e
+      internalID: -1766792462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_25
+      rect:
+        serializedVersion: 2
+        x: 4361
+        y: 6935
+        width: 192
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b73fdc59a8955a418ef89f9691728f5
+      internalID: -744062605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_26
+      rect:
+        serializedVersion: 2
+        x: 3697
+        y: 6884
+        width: 192
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e6766e5502a0c4c95cf08410fda448
+      internalID: 934107527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_27
+      rect:
+        serializedVersion: 2
+        x: 4585
+        y: 7234
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f8561931252a40818f8e3ec110792
+      internalID: -233941153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_28
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 7117
+        width: 112
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e2ad9125e9ab45b0d584df3eeed79
+      internalID: -634662534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_29
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 7150
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a075b8c38541c3c4381b6b3c6a2af26f
+      internalID: 1675741051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_30
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 6996
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274c776b1fe8d1b4caf711e44e259594
+      internalID: -990694445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_31
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 6963
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd13eeed02032743ae566a1fad946d2
+      internalID: -789064986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 6945
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5576706130ff7f4a8034543ce680a88
+      internalID: -735872635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_33
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5832
+        width: 523
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11832949afb89c49931fd966bbe7801
+      internalID: 1504602841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_34
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 6379
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd686b21903004d932bef380b27663
+      internalID: 1968079746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_35
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 5870
+        width: 515
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6541bb7b0af5c6047ad86ce5dceab2fc
+      internalID: -375134208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_36
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 6379
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18f26a7fa86fb14db992b3e67a4327b
+      internalID: 2102464638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_37
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 5916
+        width: 434
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35305d492b17904785d453cce9449d6
+      internalID: -1980450711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_38
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 5846
+        width: 449
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf997c420178094aaf03c9f05267f39
+      internalID: -557693635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_39
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 5842
+        width: 481
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7b27ad0c12c248bebaf57f9e45879
+      internalID: -1735662220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_40
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 5884
+        width: 547
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eca16a5dae4f7e4f85ae2047eb9cfa7
+      internalID: 1175047908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_41
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 5856
+        width: 542
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c39bca52e781fd4aad35575f4ed26ab
+      internalID: 857016076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_42
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 6346
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183ca75af6514e34a9643797b5364e2a
+      internalID: 854455483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_43
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6304
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac65a4c2fb4dd30499580734addac8e9
+      internalID: 1988273690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_44
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 6300
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d2b658742088478f700ac3438b525
+      internalID: -1938414456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_45
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4851
+        width: 454
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6752e15b61cee244b22968d8033624d
+      internalID: 1729756516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_46
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 4860
+        width: 463
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b84d00a38f75349804bd6f05c3783b
+      internalID: 149819549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_47
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 4828
+        width: 407
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a75bfa468f8c2443a4fbbf897aaf14d
+      internalID: 131908236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_48
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 4832
+        width: 449
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d257c6e3e43e34eb1b14a9339fb095
+      internalID: 1107241362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_49
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5253
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdd3c7eac9175049bee846f212b92ab
+      internalID: -1006779053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_50
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 4823
+        width: 580
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aa9615773d7c4419c750c225a2b12e
+      internalID: -1981488454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_51
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 4734
+        width: 519
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941ce89986483884f853c40f9a06fc36
+      internalID: 1058768279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_52
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 5248
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba69637934aa42c43bd22302dff8c6de
+      internalID: 68294142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_53
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 5201
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57152169ebc4de84d80aa4be0a76b2fc
+      internalID: -21368682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_54
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 5206
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3bc0827c0e49b41848a0146d2cf501
+      internalID: 151894502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_55
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 5201
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83042c3b7de308449e02330da8caf67
+      internalID: 1522380701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_56
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 5029
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75ae77d6b35ccd4884fdea076050169
+      internalID: -1590535585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_57
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 5014
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5150f65362ab542879d913680aa52c
+      internalID: -1297362336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3701
+        width: 547
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d41ebd21c623194eb3fd137c85c44b6
+      internalID: 1040828875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_59
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3711
+        width: 537
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699487551790d214c95f27ab104384aa
+      internalID: -1125598030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_60
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 4692
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80e0b889db91bb4889ecca51bd246a7
+      internalID: -835471078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_61
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 3711
+        width: 509
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb26581e6f82d9340a386ce9ff1b4cf2
+      internalID: 977893903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_62
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 3720
+        width: 500
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d9c4c844b2c384ca2e63839ccb9744
+      internalID: 845082794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_63
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 3711
+        width: 491
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe8cd47ed0d5eb4784ed4849baedb00
+      internalID: -828865765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_64
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 3711
+        width: 500
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77064ab92c161794aaf9362034834fcd
+      internalID: -1108880432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_65
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 3697
+        width: 505
+        height: 1018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7686ded6a44cf804abbe91bda26aca66
+      internalID: -826321935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3809
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a44d51db710e2489f380cf968c02de
+      internalID: 2063343007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_67
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2271
+        width: 641
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6007c631cc25a1548887a6c3006f1f97
+      internalID: -829903382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_68
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2299
+        width: 556
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd3b88db0055194b81ea06efdc23f92
+      internalID: 2136189832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_69
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 2299
+        width: 659
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f11bc0a39c17e4e9a72a1d385c70fa
+      internalID: -1939417993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_70
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 2846
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df8e58bfe3637b4a893e18da27a2def
+      internalID: -490800731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_71
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 2809
+        width: 280
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276c97afba01e9e4395f22e830d2ae98
+      internalID: -947985435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_72
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 2832
+        width: 135
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaeb51bf9cb2bf4ba68e53145f766c0
+      internalID: -1199483467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_73
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 2823
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1803d2e1997f374890bf1f2b1133357
+      internalID: 1367149654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_74
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 2823
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb7e97afc244a946945411e330515ee
+      internalID: -511854619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_75
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2767
+        width: 89
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e68140875189424fb449bcbd0c0cacf
+      internalID: -1284925846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_76
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1313
+        width: 449
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd16280388e37c24a887d76de2ddd29f
+      internalID: 2047716611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_77
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1715
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e717709c6a167214c95244abcef00519
+      internalID: -812570048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_78
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1318
+        width: 398
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b71031f3b44a04295c89bee402beb9
+      internalID: -437342921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_79
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1327
+        width: 803
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e9365927bd60f4395f50a9cdf7ebd8
+      internalID: -1177257035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_80
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 1332
+        width: 397
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6973dc118880d4e96b7e4afdb0c6b7
+      internalID: 702606114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_81
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 1304
+        width: 449
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc683e50b3e56434f813949277afd82e
+      internalID: -1570358504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_82
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 1710
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d59d01d6583a48498d8cd1e3bb24715
+      internalID: 219844195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_83
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1668
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb0685915d8fae40aeebf9b0188f17f
+      internalID: 531003391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_84
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 1659
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef27bba69f79bd42870865bfa4002dd
+      internalID: 484583447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_85
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1519
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44bbd6a9406a5144b809ea1ccfadb30
+      internalID: 119053357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_86
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1500
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b08c5cf986c4a4bb68584828be8de1
+      internalID: 525277410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_87
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1178
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e3302b0b5140c4dbc63c837e979109
+      internalID: -1699497926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_88
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba3a9530ae0b34caa913cf89e903e3
+      internalID: -1436896647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_89
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 215
+        width: 397
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5f15c2e25493d45b03497d5e0562b7
+      internalID: -1918867982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_90
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0b82315aff3854ab0bcbb3bdf89fb7
+      internalID: 1488168906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_91
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 187
+        width: 449
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd8f917d54970f49913b969fe9eb5d9
+      internalID: 392576372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_92
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1126
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abf9ba1162940d45a2e0d57215edb5b
+      internalID: -1362690957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_93
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 173
+        width: 393
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9987b5ee4df6d6439f10d737afa0189
+      internalID: -1128909864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_94
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 168
+        width: 477
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db09751d27b8983458c561a18c436a40
+      internalID: -734118998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_95
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 178
+        width: 697
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8dcf0258de0d4b8884a34425f3de8
+      internalID: 837879832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_96
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 196
+        width: 645
+        height: 926
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435216797014f664fa9f55676e156447
+      internalID: 880518062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_97
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 640
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaffd98f948aef40a9dd3278aaddcc1
+      internalID: -668899704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_98
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 178
+        width: 449
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013644a66fa4834449f0b43c0182d3c0
+      internalID: -285189854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_99
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 589
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0e1992952f8924e8171ed412b0fa28
+      internalID: -129151376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_100
+      rect:
+        serializedVersion: 2
+        x: 4431
+        y: 579
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86974a406ab0da42af5e35176d2ef74
+      internalID: 1915434188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_101
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 556
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379b4f3b8f841a441be6f5256fb7377b
+      internalID: 878320220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_102
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 542
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd7f05fdf56ddf4f90c112efdfe7a71
+      internalID: 9259001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_103
+      rect:
+        serializedVersion: 2
+        x: 4436
+        y: 533
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82b05241c60a8b46a78171d29174330
+      internalID: -1771815969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_104
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 458
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7c984fff98f074eb5f67982b8e989e
+      internalID: -455309651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_105
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 402
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8556df394f38dba409545fbc977c08dd
+      internalID: -652593051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_106
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 360
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b2c8c1f020eba4898bc22d3756b439
+      internalID: -676128769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_107
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 61
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911733956b3e3fc48b6de3e9b173531d
+      internalID: -381406792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_108
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 19
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1890743e55fbf7d46bad5963c902b126
+      internalID: 134510570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_109
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f609647f0b1b7448cc385199f41d59
+      internalID: 426910388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Van Helsing 3_110
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 0
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1dfc3440f909b45be0780e65f07282
+      internalID: 216903058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Van Helsing 3_32: -735872635
+      Van Helsing 3_0: 1363572941
+      Van Helsing 3_54: 151894502
+      Van Helsing 3_103: -1771815969
+      Van Helsing 3_35: -375134208
+      Van Helsing 3_64: -1108880432
+      Van Helsing 3_87: -1699497926
+      Van Helsing 3_14: -1869076518
+      Van Helsing 3_16: -2009704360
+      Van Helsing 3_57: -1297362336
+      Van Helsing 3_61: 977893903
+      Van Helsing 3_70: -490800731
+      Van Helsing 3_30: -990694445
+      Van Helsing 3_68: 2136189832
+      Van Helsing 3_7: -1078479277
+      Van Helsing 3_79: -1177257035
+      Van Helsing 3_92: -1362690957
+      Van Helsing 3_72: -1199483467
+      Van Helsing 3_9: 174844710
+      Van Helsing 3_96: 880518062
+      Van Helsing 3_17: -499646716
+      Van Helsing 3_48: 1107241362
+      Van Helsing 3_39: -1735662220
+      Van Helsing 3_19: -1838565131
+      Van Helsing 3_107: -381406792
+      Van Helsing 3_100: 1915434188
+      Van Helsing 3_10: -239107930
+      Van Helsing 3_55: 1522380701
+      Van Helsing 3_47: 131908236
+      Van Helsing 3_82: 219844195
+      Van Helsing 3_18: 1051201084
+      Van Helsing 3_90: 1488168906
+      Van Helsing 3_66: 2063343007
+      Van Helsing 3_49: -1006779053
+      Van Helsing 3_42: 854455483
+      Van Helsing 3_74: -511854619
+      Van Helsing 3_27: -233941153
+      Van Helsing 3_95: 837879832
+      Van Helsing 3_83: 531003391
+      Van Helsing 3_67: -829903382
+      Van Helsing 3_99: -129151376
+      Van Helsing 3_76: 2047716611
+      Van Helsing 3_4: 254661313
+      Van Helsing 3_101: 878320220
+      Van Helsing 3_12: -849264693
+      Van Helsing 3_23: 1938009533
+      Van Helsing 3_81: -1570358504
+      Van Helsing 3_52: 68294142
+      Van Helsing 3_108: 134510570
+      Van Helsing 3_5: 1882834352
+      Van Helsing 3_65: -826321935
+      Van Helsing 3_88: -1436896647
+      Van Helsing 3_29: 1675741051
+      Van Helsing 3_62: 845082794
+      Van Helsing 3_91: 392576372
+      Van Helsing 3_80: 702606114
+      Van Helsing 3_20: -200983626
+      Van Helsing 3_28: -634662534
+      Van Helsing 3_38: -557693635
+      Van Helsing 3_53: -21368682
+      Van Helsing 3_60: -835471078
+      Van Helsing 3_69: -1939417993
+      Van Helsing 3_109: 426910388
+      Van Helsing 3_6: -1913019919
+      Van Helsing 3_8: 1934870450
+      Van Helsing 3_77: -812570048
+      Van Helsing 3_85: 119053357
+      Van Helsing 3_24: -1766792462
+      Van Helsing 3_46: 149819549
+      Van Helsing 3_78: -437342921
+      Van Helsing 3_84: 484583447
+      Van Helsing 3_45: 1729756516
+      Van Helsing 3_105: -652593051
+      Van Helsing 3_11: 443444486
+      Van Helsing 3_3: 11925754
+      Van Helsing 3_73: 1367149654
+      Van Helsing 3_102: 9259001
+      Van Helsing 3_93: -1128909864
+      Van Helsing 3_15: -1793426297
+      Van Helsing 3_37: -1980450711
+      Van Helsing 3_97: -668899704
+      Van Helsing 3_106: -676128769
+      Van Helsing 3_34: 1968079746
+      Van Helsing 3_25: -744062605
+      Van Helsing 3_44: -1938414456
+      Van Helsing 3_1: 493202050
+      Van Helsing 3_21: -2112638720
+      Van Helsing 3_71: -947985435
+      Van Helsing 3_75: -1284925846
+      Van Helsing 3_36: 2102464638
+      Van Helsing 3_33: 1504602841
+      Van Helsing 3_40: 1175047908
+      Van Helsing 3_43: 1988273690
+      Van Helsing 3_50: -1981488454
+      Van Helsing 3_2: -408812323
+      Van Helsing 3_22: 189156119
+      Van Helsing 3_58: 1040828875
+      Van Helsing 3_89: -1918867982
+      Van Helsing 3_110: 216903058
+      Van Helsing 3_56: -1590535585
+      Van Helsing 3_26: 934107527
+      Van Helsing 3_41: 857016076
+      Van Helsing 3_98: -285189854
+      Van Helsing 3_31: -789064986
+      Van Helsing 3_94: -734118998
+      Van Helsing 3_63: -828865765
+      Van Helsing 3_59: -1125598030
+      Van Helsing 3_13: 1703099387
+      Van Helsing 3_51: 1058768279
+      Van Helsing 3_104: -455309651
+      Van Helsing 3_86: 525277410
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
