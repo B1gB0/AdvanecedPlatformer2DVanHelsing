@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -11,7 +12,10 @@ public class Player : MonoBehaviour
 
     private PlayerMovement _playerMovement;
     private Weapon _currentWeapon;
+    private Coroutine _coroutine;
     private float _currentHealth;
+    private float _targetHealth;
+    private float _recoveryRate = 10f;
 
     public event UnityAction<float, float> HealthChanged;
 
@@ -34,8 +38,8 @@ public class Player : MonoBehaviour
 
     public void ApplyDamage(float damage)
     {
-        _currentHealth -= damage;
-        HealthChanged?.Invoke(_currentHealth, _health);
+       _targetHealth = _currentHealth - damage;
+        OnChangeHealth();
 
         if (_currentHealth <= 0)
             Destroy(gameObject);
@@ -43,7 +47,8 @@ public class Player : MonoBehaviour
 
     public void AddHealth(float health)
     {
-        _currentHealth += health;
+        _targetHealth = _currentHealth + health;
+        OnChangeHealth();
 
         if (_currentHealth > _health)
             _currentHealth = _health;
@@ -52,5 +57,26 @@ public class Player : MonoBehaviour
     public void AddMoney(float money)
     {
         Money += money;
+    }
+
+    private void OnChangeHealth()
+    {
+        if(_coroutine != null)
+        {
+            StopCoroutine(_coroutine);
+        }
+
+        _coroutine = StartCoroutine(ChangeHealth());
+    }
+
+    private IEnumerator ChangeHealth()
+    {
+        while (_currentHealth != _targetHealth)
+        {
+            _currentHealth = Mathf.MoveTowards(_currentHealth, _targetHealth, _recoveryRate * Time.deltaTime);
+            HealthChanged?.Invoke(_currentHealth, _health);
+
+            yield return null;
+        }
     }
 }

@@ -1108,7 +1108,7 @@ MonoBehaviour:
   _health: 7
   _reward: 3
   _speed: 5
-  _damage: 4
+  _damage: 5
   _delay: 2
 --- !u!114 &5760142464669822681
 MonoBehaviour:
