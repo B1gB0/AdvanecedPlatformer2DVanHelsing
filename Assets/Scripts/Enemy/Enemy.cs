@@ -36,7 +36,8 @@ public class Enemy : MonoBehaviour
         if(isAttack == false)
         {
             _enemyAnimator.Move(_speed);
-            transform.position = Vector3.MoveTowards(transform.position, _target.position, _speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards
+            (transform.position,_target.position, _speed * Time.deltaTime);
         }
         else if(isAttack == true)
         {

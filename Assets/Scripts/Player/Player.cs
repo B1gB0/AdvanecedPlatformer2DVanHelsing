@@ -73,7 +73,8 @@ public class Player : MonoBehaviour
     {
         while (_currentHealth != _targetHealth)
         {
-            _currentHealth = Mathf.MoveTowards(_currentHealth, _targetHealth, _recoveryRate * Time.deltaTime);
+            _currentHealth = Mathf.MoveTowards
+            (_currentHealth,_targetHealth, _recoveryRate * Time.deltaTime);
             HealthChanged?.Invoke(_currentHealth, _health);
 
             yield return null;

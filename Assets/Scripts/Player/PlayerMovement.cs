@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     protected Vector2 moveInput;
     protected Vector2 groundNormal;
     protected Rigidbody2D rigidbody2d;
-    protected SpriteRenderer spriteRenderer;
     protected ContactFilter2D contactFilter;
     protected RaycastHit2D[] hitBuffer = new RaycastHit2D[16];
     protected List<RaycastHit2D> hitBufferList = new List<RaycastHit2D>(16);
@@ -30,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
     private void OnEnable()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Start()

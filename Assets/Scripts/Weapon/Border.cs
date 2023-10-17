@@ -6,13 +6,12 @@ public class Border : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out Bolt bolt))
         {
-            Die(collision);
+            Die(bolt);
         }
     }
 
-    private void Die(Collider2D collision)
+    private void Die(Bolt bolt)
     {
-        Bolt bolt = collision.GetComponent<Bolt>();
         bolt.gameObject.SetActive(false);
     }
 }
