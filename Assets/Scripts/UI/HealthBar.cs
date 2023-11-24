@@ -6,8 +6,10 @@ public class HealthBar : Bar
 
     private void OnEnable()
     {
+        MaxValue = _player.Health;
         _player.HealthChanged += OnCgangedValue;
-        Slider.value = 1;
+        Slider.value = MaxValue / MaxValue;
+        Text.text = ((int)MaxValue).ToString() + "/" + ((int)MaxValue).ToString();
     }
 
     private void OnDisable()

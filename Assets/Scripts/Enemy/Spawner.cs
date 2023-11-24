@@ -8,8 +8,6 @@ public class Spawner : EnemyPool
     [SerializeField] private Enemy _enemy;
     [SerializeField] private float _delay;
 
-    private bool isWork = true;
-
     private void Start()
     {
         Initialize(_enemy);
@@ -26,7 +24,7 @@ public class Spawner : EnemyPool
     {
         var waitForSeconds = new WaitForSeconds(_delay);
 
-        while(isWork)
+        for (int i = 0; i < _capacity; i++)
         {
             if (TryGetEnemy(out Enemy enemyPrefab))
             {

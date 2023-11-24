@@ -17,9 +17,10 @@ public class Player : MonoBehaviour
     private float _targetHealth;
     private float _recoveryRate = 10f;
 
-    public event UnityAction<float, float> HealthChanged;
+    public event UnityAction<float, float, float> HealthChanged;
 
     public float Money { get; private set; }
+    public float Health => _health;
 
     private void Start()
     {
@@ -48,10 +49,15 @@ public class Player : MonoBehaviour
     public void AddHealth(float health)
     {
         _targetHealth = _currentHealth + health;
-        OnChangeHealth();
-
-        if (_currentHealth > _health)
-            _currentHealth = _health;
+        
+        if (_targetHealth > _health)
+        {
+            _targetHealth = _health;
+        }
+        else
+        {
+            OnChangeHealth();
+        }
     }
 
     public void AddMoney(float money)
@@ -75,7 +81,7 @@ public class Player : MonoBehaviour
         {
             _currentHealth = Mathf.MoveTowards
             (_currentHealth,_targetHealth, _recoveryRate * Time.deltaTime);
-            HealthChanged?.Invoke(_currentHealth, _health);
+            HealthChanged?.Invoke(_currentHealth, _health, _targetHealth);
 
             yield return null;
         }

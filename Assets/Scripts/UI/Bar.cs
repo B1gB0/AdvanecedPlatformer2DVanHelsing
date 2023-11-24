@@ -3,10 +3,16 @@ using UnityEngine.UI;
 
 public abstract class Bar : MonoBehaviour
 {
+    [SerializeField] protected Slider SmoothSlider;
     [SerializeField] protected Slider Slider;
+    [SerializeField] protected Text Text;
 
-    public void OnCgangedValue(float value, float maxValue)
+    protected float MaxValue;
+
+    public void OnCgangedValue(float currentValue, float maxValue, float targetValue)
     {
-        Slider.value = value / maxValue;
+        SmoothSlider.value = currentValue / maxValue;
+        Slider.value = targetValue / maxValue;
+        Text.text = ((int)targetValue).ToString() + "/" + ((int)maxValue).ToString();
     }
 }
