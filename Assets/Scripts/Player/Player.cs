@@ -8,16 +8,17 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private List<Weapon> _weapons;
     [SerializeField] private Transform _shootPoint;
+    [SerializeField] private HealthBar _healthBar;
     [SerializeField] private float _health;
 
     private PlayerMovement _playerMovement;
     private Weapon _currentWeapon;
-    private Coroutine _coroutine;
+    //private Coroutine _coroutine;
     private float _currentHealth;
     private float _targetHealth;
-    private float _recoveryRate = 10f;
+    //private float _recoveryRate = 10f;
 
-    public event UnityAction<float, float, float> HealthChanged;
+    //public event UnityAction<float, float, float> HealthChanged;
 
     public float Money { get; private set; }
     public float Health => _health;
@@ -40,7 +41,8 @@ public class Player : MonoBehaviour
     public void ApplyDamage(float damage)
     {
        _targetHealth = _currentHealth - damage;
-        OnChangeHealth();
+       _healthBar.OnChangeHealth(_currentHealth, _targetHealth, _health);
+       _currentHealth = _targetHealth;
 
         if (_currentHealth <= 0)
             Destroy(gameObject);
@@ -53,10 +55,12 @@ public class Player : MonoBehaviour
         if (_targetHealth > _health)
         {
             _targetHealth = _health;
+            _currentHealth = _targetHealth;
         }
         else
         {
-            OnChangeHealth();
+            _healthBar.OnChangeHealth(_currentHealth, _targetHealth, _health);
+            _currentHealth = _targetHealth;
         }
     }
 
@@ -65,25 +69,25 @@ public class Player : MonoBehaviour
         Money += money;
     }
 
-    private void OnChangeHealth()
-    {
-        if(_coroutine != null)
-        {
-            StopCoroutine(_coroutine);
-        }
+    //private void OnChangeHealth()
+    //{
+    //    if(_coroutine != null)
+    //    {
+    //        StopCoroutine(_coroutine);
+    //    }
 
-        _coroutine = StartCoroutine(ChangeHealth());
-    }
+    //    _coroutine = StartCoroutine(ChangeHealth());
+    //}
 
-    private IEnumerator ChangeHealth()
-    {
-        while (_currentHealth != _targetHealth)
-        {
-            _currentHealth = Mathf.MoveTowards
-            (_currentHealth,_targetHealth, _recoveryRate * Time.deltaTime);
-            HealthChanged?.Invoke(_currentHealth, _health, _targetHealth);
+    //private IEnumerator ChangeHealth()
+    //{
+    //    while (_currentHealth != _targetHealth)
+    //    {
+    //        _currentHealth = Mathf.MoveTowards
+    //        (_currentHealth,_targetHealth, _recoveryRate * Time.deltaTime);
+    //        HealthChanged?.Invoke(_currentHealth, _health, _targetHealth);
 
-            yield return null;
-        }
-    }
+    //        yield return null;
+    //    }
+    //}
 }
