@@ -14,7 +14,7 @@ public class Bolt : MonoBehaviour
     {
         if(collision.gameObject.TryGetComponent(out Enemy enemy))
         {
-            enemy.TakeDamage(_damage);
+            enemy.ApplyDamage(_damage);
 
             Destroy(gameObject);
         }

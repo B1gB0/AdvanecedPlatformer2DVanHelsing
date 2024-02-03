@@ -4,8 +4,7 @@ using UnityEngine.Events;
 
 public class HealthBar : Bar
 {
-    [SerializeField] private Player _player;
-
+    private Health _health;
     private Coroutine _coroutine;
     private float _recoveryRate = 10f;
 
@@ -13,7 +12,7 @@ public class HealthBar : Bar
 
     private void OnEnable()
     {
-        MaxValue = _player.Health;
+        MaxValue = _health.StartHealth;
         HealthChanged += OnCgangedValue;
         Slider.value = MaxValue / MaxValue;
         Text.text = ((int)MaxValue).ToString() + "/" + ((int)MaxValue).ToString();
@@ -22,6 +21,11 @@ public class HealthBar : Bar
     private void OnDisable()
     {
         HealthChanged -= OnCgangedValue;
+    }
+
+    public void GetHealth(Health health)
+    {
+        _health = health;
     }
 
     public void OnChangeHealth(float currentHealth, float targetHealth, float health)

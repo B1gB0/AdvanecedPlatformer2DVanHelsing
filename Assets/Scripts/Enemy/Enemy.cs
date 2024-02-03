@@ -1,25 +1,39 @@
 using UnityEngine;
 
 [RequireComponent(typeof(EnemyAnimator))]
-public class Enemy : MonoBehaviour
+public class Enemy : Health
 {
-    [SerializeField] private float _health;
     [SerializeField] private float _reward;
     [SerializeField] private float _speed;
     [SerializeField] private float _damage;
     [SerializeField] private float _delay;
 
+    [SerializeField] private Transform _healthBarPoint;
+    [SerializeField] private HealthBar _healthBar;
+    [SerializeField] private Canvas _canvas;
+
     private EnemyAnimator _enemyAnimator;
     private Transform _defaultTarget;
     private Transform _target;
     private Player _player;
-    private float _lastAttackTime;
+
     private bool isAttack = false;
+    private float _lastAttackTime;
+    
+    private Camera _camera;
 
     public Transform DefaultTarget => _defaultTarget;
 
+    private void Awake()
+    {
+        _camera = Camera.main;
+        _canvas.worldCamera = _camera;
+        _healthBar.GetHealth(this);
+    }
+
     private void Start()
     {
+        _currentHealth = StartHealth;
         _enemyAnimator = GetComponent<EnemyAnimator>();
     }
 
@@ -63,9 +77,16 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    private void LateUpdate()
     {
-        _health -= damage;
+        _healthBar.transform.position = _healthBarPoint.transform.position;
+    }
+
+    public void ApplyDamage(float damage)
+    {
+        _targetHealth = _currentHealth - damage;
+        _healthBar.OnChangeHealth(_currentHealth, _targetHealth, StartHealth);
+        _currentHealth = _targetHealth;
     }
 
     public void GetTarget(Transform target)
@@ -97,7 +118,7 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        if (_health < 0)
+        if (_currentHealth < 0)
         {
             _player.AddMoney(_reward);
             gameObject.SetActive(false);
