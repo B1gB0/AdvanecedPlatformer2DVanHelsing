@@ -25,7 +25,7 @@ public class Player : Health
         _playerMovement = GetComponent<PlayerMovement>();
 
         _currentWeapon = _weapons[0];
-        _currentHealth = StartHealth;
+        CurrentHealth = StartHealth;
     }
 
     private void Update()
@@ -43,27 +43,27 @@ public class Player : Health
 
     public void ApplyDamage(float damage)
     {
-       _targetHealth = _currentHealth - damage;
-       _healthBar.OnChangeHealth(_currentHealth, _targetHealth, StartHealth);
-       _currentHealth = _targetHealth;
+       TargetHealth = CurrentHealth - damage;
+       this.OnChangeHealth(CurrentHealth, TargetHealth, StartHealth);
+       CurrentHealth = TargetHealth;
 
-        if (_currentHealth <= 0)
+        if (CurrentHealth <= 0)
             Destroy(gameObject);
     }
 
     public void AddHealth(float health)
     {
-        _targetHealth = _currentHealth + health;
+        TargetHealth = CurrentHealth + health;
         
-        if (_targetHealth > StartHealth)
+        if (TargetHealth > StartHealth)
         {
-            _targetHealth = StartHealth;
-            _currentHealth = _targetHealth;
+            TargetHealth = StartHealth;
+            CurrentHealth = TargetHealth;
         }
         else
         {
-            _healthBar.OnChangeHealth(_currentHealth, _targetHealth, StartHealth);
-            _currentHealth = _targetHealth;
+            this.OnChangeHealth(CurrentHealth, TargetHealth, StartHealth);
+            CurrentHealth = TargetHealth;
         }
     }
 

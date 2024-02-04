@@ -33,7 +33,7 @@ public class Enemy : Health
 
     private void Start()
     {
-        _currentHealth = StartHealth;
+        CurrentHealth = StartHealth;
         _enemyAnimator = GetComponent<EnemyAnimator>();
     }
 
@@ -84,9 +84,9 @@ public class Enemy : Health
 
     public void ApplyDamage(float damage)
     {
-        _targetHealth = _currentHealth - damage;
-        _healthBar.OnChangeHealth(_currentHealth, _targetHealth, StartHealth);
-        _currentHealth = _targetHealth;
+        TargetHealth = CurrentHealth - damage;
+        this.OnChangeHealth(CurrentHealth, TargetHealth, StartHealth);
+        CurrentHealth = TargetHealth;
     }
 
     public void GetTarget(Transform target)
@@ -118,7 +118,7 @@ public class Enemy : Health
 
     private void Die()
     {
-        if (_currentHealth < 0)
+        if (CurrentHealth < 0)
         {
             _player.AddMoney(_reward);
             gameObject.SetActive(false);

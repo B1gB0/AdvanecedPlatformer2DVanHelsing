@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Spawner : EnemyPool
 {
-    [SerializeField] Player _player;
+    [SerializeField] private Player _player;
     [SerializeField] private Transform _target;
     [SerializeField] private Enemy _enemy;
     [SerializeField] private float _delay;
