@@ -6,7 +6,7 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField] private int _price;
     [SerializeField] private Sprite _icon;
 
-    [SerializeField] protected Bolt bolt;
+    [SerializeField] protected Bolt Bolt;
 
     public abstract void Shoot(Transform shootPoint);
 }

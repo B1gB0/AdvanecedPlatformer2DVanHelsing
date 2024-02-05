@@ -6,6 +6,6 @@ public class Crossbow : Weapon
 {
     public override void Shoot(Transform shootPoint)
     {
-        Instantiate(bolt, shootPoint.position, shootPoint.rotation);
+        Instantiate(Bolt, shootPoint.position, shootPoint.rotation);
     }
 }
