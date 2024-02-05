@@ -17,7 +17,7 @@ public class Enemy : Health
     private Transform _target;
     private Player _player;
 
-    private bool isAttack = false;
+    private bool _isAttack = false;
     private float _lastAttackTime;
     
     private Camera _camera;
@@ -41,19 +41,19 @@ public class Enemy : Health
     {
         if(collision.TryGetComponent<Player>(out Player player))
         {
-            isAttack = true;
+            _isAttack = true;
         }
     }
 
     private void Update()
     {
-        if(isAttack == false)
+        if(_isAttack == false)
         {
             _enemyAnimator.Move(_speed);
             transform.position = Vector3.MoveTowards
             (transform.position,_target.position, _speed * Time.deltaTime);
         }
-        else if(isAttack == true)
+        else if(_isAttack == true)
         {
             if(_lastAttackTime < 0)
             {
@@ -73,7 +73,7 @@ public class Enemy : Health
     {
         if (collision.TryGetComponent<Player>(out Player player))
         {
-            isAttack = false;
+            _isAttack = false;
         }
     }
 
